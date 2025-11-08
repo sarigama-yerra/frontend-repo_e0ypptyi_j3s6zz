@@ -6,7 +6,7 @@ const Hero = ({ onCTAClick }) => {
   return (
     <section className="relative min-h-[80vh] w-full overflow-hidden bg-black text-white">
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/cVzHR3fQnWrlrLT7/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        <Spline scene="https://prod.spline.design/kqB-rdL4TCJ7pyGb/scene.splinecode" style={{ width: '100%', height: '100%' }} />
       </div>
 
       {/* Soft gradient vignettes that don't block interaction */}
@@ -19,12 +19,12 @@ const Hero = ({ onCTAClick }) => {
           Limited to the first 100 backers
         </span>
         <h1 className="max-w-3xl text-4xl font-semibold leading-tight sm:text-5xl md:text-6xl">
-          Meet the DM
+          Meet <span className="bg-gradient-to-r from-fuchsia-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">The DM</span>
           <br />
           The ultimate gaming accessory for your nintendo switch.
         </h1>
         <p className="max-w-2xl text-lg text-white/80 md:text-xl">
-          it's more than just a case - it's a functional work of art with unrivaled joycon protection featuring STS Technology. Custom made, a limited run of 100 available exclusively through kickstarter.
+          It's more than just a case - it's a functional work of art with unrivaled joycon protection featuring STS Technology. Custom made, a limited run of 100 available exclusively through kickstarter.
         </p>
 
         <div className="flex flex-wrap items-center gap-4 text-sm text-white/80">
