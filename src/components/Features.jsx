@@ -30,12 +30,12 @@ const Features = () => {
       <div className="mx-auto max-w-6xl px-6 md:px-10 lg:px-12">
         <h2 className="text-center text-3xl font-semibold md:text-4xl">Why The DM?</h2>
         <p className="mx-auto mt-3 max-w-2xl text-center text-white/70">
-          As a life long gamer who is always on the move, I designed the DM to do the things no other company wouldn't do, while creating a fashion statement in the process
+          As a life long gamer who is always on the move, I designed the DM to do the things no other company would do, while creating a fashion statement in the process
         </p>
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {features.map(({ icon: Icon, title, desc }) => (
             <div key={title} className="rounded-2xl border border-white/10 bg-white/5 p-5">
-              <Icon className="h-6 w-6 text-fuchsia-300" />
+              <Icon className="h-6 w-6 text-blue-300" />
               <h3 className="mt-3 text-lg font-medium">{title}</h3>
               <p className="mt-1 text-sm text-white/70">{desc}</p>
             </div>

@@ -7,7 +7,7 @@ const StepIndicator = ({ step }) => {
       {steps.map((s) => (
         <div
           key={s}
-          className={`h-1.5 w-20 rounded-full ${step >= s ? 'bg-fuchsia-500' : 'bg-white/20'}`}
+          className={`h-1.5 w-20 rounded-full ${step >= s ? 'bg-blue-500' : 'bg-white/20'}`}
         />
       ))}
     </div>
@@ -72,7 +72,7 @@ const CaptureForm = ({ onSubmit }) => {
               value={form.firstName}
               onChange={handleChange}
               placeholder="Alex"
-              className="w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2 outline-none ring-fuchsia-500/30 placeholder:text-white/40 focus:ring-2"
+              className="w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2 outline-none ring-blue-500/30 placeholder:text-white/40 focus:ring-2"
               required
             />
           </div>
@@ -84,7 +84,7 @@ const CaptureForm = ({ onSubmit }) => {
               value={form.lastName}
               onChange={handleChange}
               placeholder="Mercer"
-              className="w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2 outline-none ring-fuchsia-500/30 placeholder:text-white/40 focus:ring-2"
+              className="w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2 outline-none ring-blue-500/30 placeholder:text-white/40 focus:ring-2"
             />
           </div>
           <div>
@@ -95,14 +95,14 @@ const CaptureForm = ({ onSubmit }) => {
               value={form.email}
               onChange={handleChange}
               placeholder="alex@example.com"
-              className="w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2 outline-none ring-fuchsia-500/30 placeholder:text-white/40 focus:ring-2"
+              className="w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2 outline-none ring-blue-500/30 placeholder:text-white/40 focus:ring-2"
               required
             />
           </div>
           {error && <p className="text-sm text-rose-300">{error}</p>}
           <button
             type="submit"
-            className="w-full rounded-lg bg-gradient-to-r from-fuchsia-600 to-indigo-600 px-4 py-2 font-medium hover:from-fuchsia-500 hover:to-indigo-500"
+            className="w-full rounded-lg bg-gradient-to-r from-blue-600 to-cyan-600 px-4 py-2 font-medium hover:from-blue-500 hover:to-cyan-500"
           >
             Continue
           </button>
@@ -119,7 +119,7 @@ const CaptureForm = ({ onSubmit }) => {
               value={form.phone}
               onChange={handleChange}
               placeholder="(555) 000-0000"
-              className="w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2 outline-none ring-fuchsia-500/30 placeholder:text-white/40 focus:ring-2"
+              className="w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2 outline-none ring-blue-500/30 placeholder:text-white/40 focus:ring-2"
               required
             />
           </div>
@@ -127,7 +127,7 @@ const CaptureForm = ({ onSubmit }) => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full rounded-lg bg-gradient-to-r from-fuchsia-600 to-indigo-600 px-4 py-2 font-medium disabled:opacity-60"
+            className="w-full rounded-lg bg-gradient-to-r from-blue-600 to-cyan-600 px-4 py-2 font-medium disabled:opacity-60"
           >
             {loading ? 'Submitting…' : 'Reserve my spot'}
           </button>

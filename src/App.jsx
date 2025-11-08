@@ -24,7 +24,7 @@ function App() {
     <div className="min-h-screen w-full bg-black text-white">
       <Hero onCTAClick={handleCTAClick} />
 
-      <section ref={formRef} className="bg-gradient-to-b from-black via-[#0b0710] to-black py-16">
+      <section ref={formRef} className="bg-gradient-to-b from-black via-[#030712] to-black py-16">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-6 md:grid-cols-2 md:px-10 lg:px-12">
           <div>
             <h2 className="text-3xl font-semibold md:text-4xl">Be first in line for The DM</h2>
@@ -42,7 +42,7 @@ function App() {
           {!submitted ? (
             <CaptureForm onSubmit={submitLead} />
           ) : (
-            <div className="w-full max-w-xl rounded-2xl border border-emerald-400/20 bg-emerald-500/10 p-6 text-white">
+            <div className="w-full max-w-xl rounded-2xl border border-blue-400/20 bg-blue-500/10 p-6 text-white">
               <h3 className="text-2xl font-semibold">You’re on the list!</h3>
               <p className="mt-2 text-white/80">
                 Thanks for reserving your spot. We’ll notify you the moment the Kickstarter goes live with
