@@ -30,7 +30,7 @@ const Features = () => {
       <div className="mx-auto max-w-6xl px-6 md:px-10 lg:px-12">
         <h2 className="text-center text-3xl font-semibold md:text-4xl">Why The DM?</h2>
         <p className="mx-auto mt-3 max-w-2xl text-center text-white/70">
-          Designed with input from speed‑runners, commuters, and collectors—this is the last Switch case you’ll ever need.
+          As a life long gamer who is always on the move, I designed the DM to do the things no other company wouldn't do, while creating a fashion statement in the process
         </p>
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {features.map(({ icon: Icon, title, desc }) => (

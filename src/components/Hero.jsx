@@ -19,12 +19,12 @@ const Hero = ({ onCTAClick }) => {
           Limited to the first 100 backers
         </span>
         <h1 className="max-w-3xl text-4xl font-semibold leading-tight sm:text-5xl md:text-6xl">
-          Meet <span className="bg-gradient-to-r from-rose-400 via-fuchsia-400 to-indigo-400 bg-clip-text text-transparent">The DM</span>
+          Meet the DM
           <br />
-          The ultimate, crush‑proof Nintendo Switch case.
+          The ultimate gaming accessory for your nintendo switch.
         </h1>
         <p className="max-w-2xl text-lg text-white/80 md:text-xl">
-          A functional work of art that protects your Joy‑Cons unlike anything else. Custom‑made, stylish, and available exclusively through Kickstarter.
+          it's more than just a case - it's a functional work of art with unrivaled joycon protection featuring STS Technology. Custom made, a limited run of 100 available exclusively through kickstarter.
         </p>
 
         <div className="flex flex-wrap items-center gap-4 text-sm text-white/80">
